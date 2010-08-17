@@ -438,7 +438,7 @@ and really not just strings, but any iterable:
 
 And now for something completely different.
 
-Well, not really.  It is just another example of everything bing an object.  In this case, the function is an object, and f is it's name:
+Well, not really.  It is just another example of everything being an object.  In this case, the function is an object, and f is it's name:
 >>> f
 <function f at 0x8c8ac34>
 
@@ -454,7 +454,6 @@ Now you can see both f and g reference the same object.  Not really useful for p
 Just to prove it is the same function:
 >>> g(3)
 6
-
 
 Functions have 3 parts: the name 'f', parameter list: (x), the guts: x*2, and the return.
 
@@ -479,7 +478,7 @@ Hopefully you will never need to know about exec.  Its use is frowned upon, but 
 >>> exec a
 4
 
-Up until now everything has been done at the prompt.  I think the rest could too, but it would be tedious, which would distract from learning, so we are relying on some small files provided as part of the lesson.   A quick note:  python finds the files by searching the pythonpath.  This is a list of directories that is constructed when python starts, and can be augmented like any other python list.  How this list is constructed is not important now.
+Up until now everything has been done at the prompt.  I think the rest could too, but it would be tedious, which would distract from learning, so we are relying on some small files provided as part of the lesson.   A quick note:  python finds the files by searching the pythonpath.  This is a list of directories that is constructed when python starts, and can be augmented like any other python list.  How this list is constructed is not important now, but know that you can see the paths via sys.path.
 
 This is also a good place to stop, because the rest is still a very rough draft.
 
