@@ -60,7 +60,7 @@ Just about everything we need to cover will be demonstrated at the Python prompt
 'Hello World!'
 
 
-That was an example of an expression (yes, a very simple one, in this case a constant) that evaluated to a string data type.  The other common data types are: boolean, numbers (integers, float, imaginary), NoneType, lists, tuples, and dictionaries.   What you need to know about any programming language is the syntax used to represent its features.  Most of what we will be learning in this study is the python syntax.
+That was an example of an expression (yes, a very simple one, in this case a constant) that evaluated to a string data type.  The other common data types are: boolean, numbers (integers, float, decimal, imaginary), NoneType, lists, tuples, and dictionaries.   Learning the syntax of a programming language is the first step in mastering it.  Most of what we will be learning in this study is the python syntax.
 
 So a quick run though how the mentioned types are represented:
 
