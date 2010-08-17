@@ -57,28 +57,26 @@ Just about everything we need to cover will be demonstrated at the Python prompt
 'Hello World!'
 
 
-That was an example of an expression (yes, a very simple one, in this case a constant) that evaluated to a string data type.  The other common data types are: boolean, numbers (integers, float, decimal, imaginary), NoneType, lists, tuples, and dictionaries.   Learning the syntax of a programming language is the first step in mastering it.  Most of what we will be learning in this study is the python syntax.
+That was an example of an expression (yes, a very simple one, in this case a constant) that evaluated to a string data type.  The other common data types are: boolean, numbers (integers, float, imaginary), NoneType, lists, tuples, and dictionaries.   Learning the syntax of a programming language is the first step in mastering it.  Most of what we will be learning in this study is the python syntax.
 
 So a quick run though how the mentioned types are represented:
 
-There are 2 Bools: True and False.  There isn't much more that needs to be said about this.
+There are 2 Bools: True and False, capitalized and unquoted.  There isn't much more that needs to be said about this.
 >>> True
 True
 >>> False
 False
 
 
-(todo: go look up python 3 change with respect to float/int)
 Floats have a dot:
 >>> 1.2
 1.2
 
-(todo: go look up python 3 change here)
-Integers don't:
+Integers don't.:
 >>> 2+2
 4
 
-You can do math on strings too:
+You can do math on strings too.  The multiplied portions are repeated:
 >>> 'ab'*3+'c'
 'abababc'
 
@@ -87,9 +85,10 @@ Parentheses are used to specify order of operation:
 >>> 3*(1+1)
 6
 
-complex number:
+Complex number:
 >>> 4+5j
 (4+5j)
+
 
 
 If you start a something that requires an end something but end the line first, the interpreter continues until you close it off:
@@ -104,11 +103,9 @@ You can also use \ to continue a line:
 ... +2
 6
 
-
 Strings can be delimited with either single, double or triple quotes.  Single and double are interchangeable, which makes it easy to deal with embedded quotes:
 >>> "I don't like spam."
 "I don't like spam."
-
 
 You can also use prinf's escape syntax:
 >>> 'He said, "it\'s a dead parrot!"'
@@ -127,7 +124,7 @@ The print command will render newlines, tabs, etc.  For now trust that it does w
 
 Back to the standard data types.   Remember, these are all types: boolean, numbers, lists, tuples, and dictionaries.   Lists, tuples, and dictionaries are data types, just like the others.
 
-A list is a comma separated list of values, surrounded by brackets:
+A list is a comma separated list of values, surrounded by square brackets:
 >>> ['x','y','z',101,3.141,'spam']
 ['x', 'y', 'z', 101, 3.141, 'spam']
 
@@ -156,7 +153,7 @@ Dictionaries are a comma separated list of key:value pairs surrounded by braces.
 
 Unlike lists and tuples, the order of the pairs is not maintained.   
 
-Keys can be any mutable value.  Values can be anything.   yes, anything.  We will see useful examples later.
+Keys can be any immutable value.  Values can be anything.  Yes, anything.  We will see useful examples later.
 
 
 That is it for built in data types.  If you are wondering about datetimes, trust that there is wonderful support for them in the datetime, calendar and dateutil modules, which is outside the scope of this discussion.  
