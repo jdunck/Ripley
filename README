@@ -9,3 +9,9 @@ Using Ripley and Python's Read Evaluate Print Loop, lead a group though the basi
 
 The app will put the command text onto the clipboard so that the leader can paste it into a Python shell.  
 
+Ripley under a GUI requires wxPython, which works for Windows, Linux, and Mac (only framework, e.g. stock python builds).
+
+If you have a brew, fink, or macports python, wxPython probably won't work for you.  In this case, we suggest playerpiano:
+
+$ playerpiano ripley.txt
+
