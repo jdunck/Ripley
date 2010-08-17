@@ -41,18 +41,16 @@ Open Office, Gimp, InkScape, Pidgin, xChat, vim, emacs - all have python
 embedded in them (I think it is typically CPython, not sure the details.)
 
 Environments: 
-Python, IPython, Idle, Active Python, .net, emacs, vim, Eclipse and more.
+Python, IPython, bpython, Idle, Active Python, .net, emacs, vim, Eclipse and more.
 Future:
 Python Enhancement Proposal (or "PEP") - http://python.org/dev/peps  includes things like:
  coding style, database access, python development workflow.
 Python 3000 - break backwards compatibility 
 
-
 Installing: 
 Python comes with most Linux distros and all Macs.  For Windows http://python.org/ click Download click Windows Installer, follow the install wizard. 
 
-
-Programing:
+REPL:
 Just about everything we need to cover will be demonstrated at the Python prompt.  In general, anything entered at the prompt is evaluated and if there is a resulting value, it is displayed.   This makes the Hello World program very easy:
 
 >>> 'Hello World!'

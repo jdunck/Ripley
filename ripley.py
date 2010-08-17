@@ -43,7 +43,7 @@ def parse(filename):
     pre,post=[],[]
     for line in open(filename):
         line=line.strip('\n')
-        if state==0 and line == "Programing:": state=1
+        if state==0 and line == "REPL:": state=1
         elif state == 1:
             pre.append(line)            
             if line.startswith('>>>'):
