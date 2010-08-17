@@ -142,10 +142,13 @@ Which can be used on any number of items:
 >>> (1,2,3,)
 (1, 2, 3)
 
-Lists and tuples can be mixed and nested to any level.  Here is a list of 3 tuples, where each tuple is a tuple of ints and an int.
->>> [((640,480),8),((800,600),16),((1280,800),24)]
-[((640, 480), 8), ((800, 600), 16), ((1280, 800), 24)]
-
+Lists and tuples can be mixed and nested to any level.  Here is a list of 3 tuples, where each tuple is a tuple of ints and a string.
+>>> [
+... ((640,480),"a"),
+... ((800,600),'b'),
+... ((1280,800),"""c""")
+... ]
+[((640, 480), 'a'), ((800, 600), 'b'), ((1280, 800), 'c')]
 
 Dictionaries are a comma separated list of key:value pairs surrounded by braces. 
 >>> {'first':'Carl', 'hands':2, 'shoe size':10.5}
