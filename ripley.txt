@@ -128,7 +128,13 @@ A list is a comma separated list of values, surrounded by square brackets:
 >>> ['x','y','z',101,3.141,'spam']
 ['x', 'y', 'z', 101, 3.141, 'spam']
 
-A tuple is pretty much the same thing: a comma separated list of values, surrounded by parentheses:
+The keyword "in" is used to test for set membership.
+>>> 3 in [1,2,3]
+True
+>>> 5 in [1,2,3]
+False
+
+A tuple is pretty much the same as a list: a comma separated list of values, surrounded by parentheses:
 >>> ('x','y','z',101,3.141,'spam')
 ('x', 'y', 'z', 101, 3.141, 'spam')
 
@@ -378,9 +384,11 @@ Strings are interable:
 >>> [a for a in 'spam']
 ['s', 'p', 'a', 'm']
 
-remember a,b=1,3?  Same thing:
+Indexes operate on items, which can be anything -- tuples here:
 >>> [(1, 2), (3, 6), (5, 10), (7, 14), (11, 22)][2]
 (5, 10)
+
+Remember a,b=1,3?  Same thing here:
 >>> a,b=[(1, 2), (3, 6), (5, 10), (7, 14), (11, 22)][2]
 >>> a
 5
@@ -405,13 +413,6 @@ class               finally             lambda              while
 continue            for                 not                 with
 def                 from                or                  yield
 del                 global              pass                
-
-
-The keyword "in" is used to test for set membership.
->>> 3 in [1,2,3]
-True
->>> 5 in [1,2,3]
-False
 
 
 There are about 70 functions:
