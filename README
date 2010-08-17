@@ -11,7 +11,7 @@ The app will put the command text onto the clipboard so that the leader can past
 
 Ripley under a GUI requires wxPython, which works for Windows, Linux, and Mac (only framework, e.g. stock python builds).
 
-If you have a brew, fink, or macports python, wxPython probably won't work for you.  In this case, we suggest [playerpiano](http://code.google.com/p/playerpiano/):
+If you have a brew, fink, or macports python, wxPython probably won't work for you.  In this case, we suggest playerpiano - http://code.google.com/p/playerpiano/:
 
 $ playerpiano ripley.txt
 
